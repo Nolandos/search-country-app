@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/css/bootstrap-theme.css';
 
 const Navigation = () => (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -15,7 +14,7 @@ const Navigation = () => (
                     <Link to="/continents" className="nav-link">Continents <span className="sr-only">(current)</span> </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/contact" className="nav-link">Home <span className="sr-only">(current)</span> </Link>
+                    <Link to="/contact" className="nav-link">Contact <span className="sr-only">(current)</span> </Link>
                 </li>
             </ul>
         </div>
